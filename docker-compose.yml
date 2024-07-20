@@ -30,6 +30,7 @@ services:
       SERVER_NAME: turtle
       MOTD: turtles are cute uwu
       OPS: rayzr
+      ICON: https://images.emojiterra.com/google/noto-emoji/unicode-15.1/color/svg/1f422.svg
       # fine-tuning
       MEMORY: 2G
       USE_AIKAR_FLAGS: true
