@@ -33,6 +33,8 @@ services:
       # fine-tuning
       MEMORY: 2G
       USE_AIKAR_FLAGS: true
+      UID: ${UID}
+      GID: ${GID}
     volumes:
       - ./data:/data
     labels:
