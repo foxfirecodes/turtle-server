@@ -21,8 +21,8 @@ services:
       # fine-tuning
       MEMORY: 2G
       USE_AIKAR_FLAGS: true
-      UID: ${UID}
-      GID: ${GID}
+      UID: ${UID:?missing}
+      GID: ${GID:?missing}
     volumes:
       - ./data:/data
     tty: true
