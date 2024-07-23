@@ -25,6 +25,7 @@ services:
       GID: ${GID:?missing}
     volumes:
       - ./data:/data
+      - ./mods:/mods
     tty: true
     stdin_open: true
     restart: unless-stopped
