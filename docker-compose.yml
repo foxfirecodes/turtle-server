@@ -13,6 +13,7 @@ services:
       MODS: |
         https://cdn.modrinth.com/data/rbJ7eS5V/versions/I3kp6jxL/dcintegration-fabric-3.0.7.2-1.21.jar
         https://cdn.modrinth.com/data/gvQqBUqZ/versions/NTZCh7rb/lithium-fabric-mc1.21-0.13.0.jar
+        https://cdn.modrinth.com/data/YS3ZignI/versions/dbmmgocV/tt20-0.7.0%2Bmc1.21.jar
       REPLACE_ENV_DURING_SYNC: true
       # server settings
       DIFFICULTY: normal
