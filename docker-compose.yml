@@ -12,6 +12,7 @@ services:
       MODRINTH_MODPACK: nitroserver
       MODS: |
         https://cdn.modrinth.com/data/rbJ7eS5V/versions/I3kp6jxL/dcintegration-fabric-3.0.7.2-1.21.jar
+        https://cdn.modrinth.com/data/gvQqBUqZ/versions/NTZCh7rb/lithium-fabric-mc1.21-0.13.0.jar
       REPLACE_ENV_DURING_SYNC: true
       # server settings
       DIFFICULTY: normal
@@ -31,7 +32,6 @@ services:
       CFG_DISCORD_ADMIN_ROLE: ${CFG_DISCORD_ADMIN_ROLE?missing}
     volumes:
       - ./data:/data
-      - ./mods:/mods
       - ./config:/config
     tty: true
     stdin_open: true
