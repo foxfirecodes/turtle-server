@@ -10,6 +10,9 @@ services:
       VERSION: 1.21
       MOD_PLATFORM: MODRINTH
       MODRINTH_MODPACK: nitroserver
+      MODS: |
+        https://cdn.modrinth.com/data/rbJ7eS5V/versions/I3kp6jxL/dcintegration-fabric-3.0.7.2-1.21.jar
+      REPLACE_ENV_DURING_SYNC: true
       # server settings
       DIFFICULTY: normal
       MAX_PLAYERS: 10
@@ -23,9 +26,13 @@ services:
       USE_AIKAR_FLAGS: true
       UID: ${UID:?missing}
       GID: ${GID:?missing}
+      CFG_DISCORD_TOKEN: ${CFG_DISCORD_TOKEN?missing}
+      CFG_DISCORD_CHANNEL: ${CFG_DISCORD_CHANNEL?missing}
+      CFG_DISCORD_ADMIN_ROLE: ${CFG_DISCORD_ADMIN_ROLE?missing}
     volumes:
       - ./data:/data
       - ./mods:/mods
+      - ./config:/config
     tty: true
     stdin_open: true
     restart: unless-stopped
