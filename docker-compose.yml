@@ -19,6 +19,7 @@ services:
       DIFFICULTY: normal
       MAX_PLAYERS: 10
       VIEW_DISTANCE: 16
+      SPAWN_PROTECTION: 0
       SERVER_NAME: turtle
       MOTD: turtles are cute uwu
       OPS: rayzr
