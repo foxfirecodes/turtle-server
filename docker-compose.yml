@@ -35,6 +35,7 @@ services:
     volumes:
       - ./data:/data
       - ./config:/config
+      - ./mods:/mods
     tty: true
     stdin_open: true
     restart: unless-stopped
