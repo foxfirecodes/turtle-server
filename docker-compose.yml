@@ -37,6 +37,7 @@ services:
       CFG_DISCORD_TOKEN: ${CFG_DISCORD_TOKEN:-xxx}
       CFG_DISCORD_CHANNEL: ${CFG_DISCORD_CHANNEL:-0}
       CFG_DISCORD_ADMIN_ROLE: ${CFG_DISCORD_ADMIN_ROLE:-0}
+      CFG_DISCORD_SERVER_URL: ${CFG_DISCORD_SERVER_URL:-mc.example.com}
     volumes:
       - ./data:/data
       - ./config:/config
