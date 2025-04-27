@@ -43,9 +43,3 @@ services:
     tty: true
     stdin_open: true
     restart: unless-stopped
-  bot:
-    image: turtle-server/bot
-    build: ./bot
-    env_file: ./bot/.env
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock:ro
