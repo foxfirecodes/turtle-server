@@ -25,7 +25,7 @@ services:
       OPS: rayzr
       ICON: https://i1.sndcdn.com/artworks-000203139607-k96me5-t500x500.jpg
       # fine-tuning
-      MEMORY: 2G
+      MEMORY: 4G
       USE_AIKAR_FLAGS: true
       UID: ${UID:?missing}
       GID: ${GID:?missing}
